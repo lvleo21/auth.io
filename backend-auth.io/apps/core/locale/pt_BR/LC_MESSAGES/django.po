@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-06 23:03-0300\n"
+"PO-Revision-Date: 2024-07-06 23:12-0300\n"
+"Last-Translator: None None <leonardo.veras@dev.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: apps/core/managers.py:8
+msgid "O nome de usuário deve ser definido"
+msgstr ""
+
+#: apps/core/models.py:14
+msgid "Criado em"
+msgstr ""
+
+#: apps/core/models.py:15
+msgid "Atualizado em"
+msgstr ""
+
+#: apps/core/models.py:17
+msgid "Está ativo?"
+msgstr ""
+
+#: apps/core/models.py:18
+msgid "Designa se este usuário está ativo na plataforma."
+msgstr ""
+
+#: apps/core/models.py:27
+msgid "Nome de usuário"
+msgstr ""
+
+#: apps/core/models.py:31
+msgid ""
+"Obrigatório. Máximo de 15 caracteres. Letras, números e caracteres @/./+/-/_"
+" permitidos."
+msgstr ""
+
+#: apps/core/models.py:36
+msgid "Insira um nome de usuário válido."
+msgstr ""
+
+#: apps/core/models.py:41
+msgid "Senha"
+msgstr "Senha"
+
+#: apps/core/models.py:42
+msgid "Nome"
+msgstr ""
+
+#: apps/core/models.py:43
+msgid "Sobrenome"
+msgstr ""
+
+#: apps/core/models.py:44
+msgid "E-mail"
+msgstr ""
+
+#: apps/core/models.py:46
+msgid "E-mail está confirmado"
+msgstr ""
+
+#: apps/core/models.py:48
+msgid "Designa se este usuário confirmou seu e-mail."
+msgstr ""
+
+#: apps/core/models.py:51
+msgid "É Staff?"
+msgstr ""
+
+#: apps/core/models.py:54
+msgid "Designa se o usuário pode efetuar login neste site de administração."
+msgstr ""
+
+#: apps/core/models.py:64
+msgid "Usuário"
+msgstr ""
+
+#: apps/core/models.py:65
+msgid "Usuários"
+msgstr ""
+
+#: apps/core/utils.py:8
+msgid "{} - v{}"
+msgstr ""

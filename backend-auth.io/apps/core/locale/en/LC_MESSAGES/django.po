@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-06 23:03-0300\n"
+"PO-Revision-Date: 2024-07-06 23:08-0300\n"
+"Last-Translator: None None <leonardo.veras@dev.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: apps/core/managers.py:8
+msgid "O nome de usuário deve ser definido"
+msgstr "Username must be set"
+
+#: apps/core/models.py:14
+msgid "Criado em"
+msgstr "Created at"
+
+#: apps/core/models.py:15
+msgid "Atualizado em"
+msgstr "Updated at"
+
+#: apps/core/models.py:17
+msgid "Está ativo?"
+msgstr "Is active?"
+
+#: apps/core/models.py:18
+msgid "Designa se este usuário está ativo na plataforma."
+msgstr "Indicates whether this user is active on the platform."
+
+#: apps/core/models.py:27
+msgid "Nome de usuário"
+msgstr "Username"
+
+#: apps/core/models.py:31
+msgid ""
+"Obrigatório. Máximo de 15 caracteres. Letras, números e caracteres @/./+/-/_"
+" permitidos."
+msgstr ""
+"Required. Maximum of 15 characters. Letters, numbers, and @/./+/-/_ "
+"characters allowed."
+
+#: apps/core/models.py:36
+msgid "Insira um nome de usuário válido."
+msgstr "Enter a valid username."
+
+#: apps/core/models.py:41
+msgid "Senha"
+msgstr "Password"
+
+#: apps/core/models.py:42
+msgid "Nome"
+msgstr "Name"
+
+#: apps/core/models.py:43
+msgid "Sobrenome"
+msgstr "Last name"
+
+#: apps/core/models.py:44
+msgid "E-mail"
+msgstr "Email"
+
+#: apps/core/models.py:46
+msgid "E-mail está confirmado"
+msgstr "Email is confirmed"
+
+#: apps/core/models.py:48
+msgid "Designa se este usuário confirmou seu e-mail."
+msgstr "Indicates whether this user has confirmed their email."
+
+#: apps/core/models.py:51
+msgid "É Staff?"
+msgstr "Is Staff?"
+
+#: apps/core/models.py:54
+msgid "Designa se o usuário pode efetuar login neste site de administração."
+msgstr "Indicates whether the user can log in to this admin site."
+
+#: apps/core/models.py:64
+msgid "Usuário"
+msgstr "User"
+
+#: apps/core/models.py:65
+msgid "Usuários"
+msgstr "Users"
+
+#: apps/core/utils.py:8
+msgid "{} - v{}"
+msgstr "{} - v{}"
