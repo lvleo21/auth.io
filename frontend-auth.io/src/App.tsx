@@ -19,8 +19,8 @@ import {
   FormMessage,
 } from "@/components/ui/form"
 
-import { buttonVariants } from "@/components/ui/button"
-import cn from "./lib/utils"
+import { Checkbox } from "@/components/ui/checkbox"
+
 
 
 
@@ -38,7 +38,7 @@ function App() {
           <CardHeader className="text-center">
             <CardTitle>Login</CardTitle>
             <CardDescription>
-              Continue your onbording with Auth.io
+              Continue your sign in with Auth.io
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -68,10 +68,26 @@ function App() {
                     </FormItem>
                   )}
                 />
-                <Button className="w-full" type="submit">Sign in</Button>
-                <Link className={buttonVariants({ variant: "link", size: "sm" })} to="#">
-                  Don't have a account? Register now
-                </Link>
+
+                <div className="flex items-center space-x-2">
+                  <Checkbox id="terms" />
+                  <label
+                    htmlFor="terms"
+                    className="text-sm font-light leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  >
+                    Remember me
+                  </label>
+                </div>
+
+                <div>
+                  <Button className="w-full" type="submit">Sign in</Button>
+                  <Button asChild variant="link" className="w-full text-cente mt-2">
+                    <Link to="#">
+                      Don't have a account? Register now
+                    </Link>
+                  </Button>
+                </div>
+
               </form>
             </Form>
           </CardContent>
