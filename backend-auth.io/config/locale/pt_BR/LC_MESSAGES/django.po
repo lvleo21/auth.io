@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-06 23:03-0300\n"
+"POT-Creation-Date: 2024-09-10 19:28-0300\n"
 "PO-Revision-Date: 2024-07-06 23:19-0300\n"
 "Last-Translator: None None <leonardo.veras@dev.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,8 +78,8 @@ msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/core/validators.py:267
 msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
-" hyphens."
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/core/validators.py:279
@@ -280,15 +280,15 @@ msgstr ""
 #: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1489
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1497
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1502
@@ -307,8 +307,8 @@ msgstr ""
 #: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1789
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] "
-"[[HH:]MM:]ss[.uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1793
@@ -470,8 +470,7 @@ msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the
-#. label
+#. characters will prevent the default label_suffix to be appended to the label
 #: venv/lib/python3.9/site-packages/django/forms/boundfield.py:184
 msgid ":?.!"
 msgstr ""
@@ -521,8 +520,7 @@ msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/forms/fields.py:625
 #, python-format
-msgid ""
-"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
@@ -632,8 +630,7 @@ msgid "The inline value did not match the parent instance."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/forms/models.py:1429
-msgid ""
-"Select a valid choice. That choice is not one of the available choices."
+msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/forms/models.py:1568
@@ -1097,10 +1094,10 @@ msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/views/csrf.py:127
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
-" including the “Referrer-Policy: no-referrer” header, please remove them. "
-"The CSRF protection requires the “Referer” header to do strict referer "
-"checking. If you’re concerned about privacy, use alternatives like <a "
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
 "rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
 
@@ -1152,8 +1149,8 @@ msgstr ""
 #: venv/lib/python3.9/site-packages/django/views/generic/dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because "
-"%(class_name)s.allow_future is False."
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/views/generic/dates.py:692
@@ -1209,10 +1206,10 @@ msgstr ""
 #: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:221
 #, python-format
 msgid ""
-"You are seeing this page because <a "
-"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
-"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
-"and you have not configured any URLs."
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:229
@@ -1648,8 +1645,8 @@ msgstr ""
 msgid ""
 "Raw passwords are not stored, so there is no way to see this user’s "
 "password, but you can change the password using <a href=\"{}\" class=\"text-"
-"primary-600 underline whitespace-nowrap dark:text-primary-500\">this "
-"form</a>."
+"primary-600 underline whitespace-nowrap dark:text-primary-500\">this form</"
+"a>."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/actions.html:22
@@ -1701,8 +1698,8 @@ msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/auth/user/add_form.html:7
 msgid ""
-"First, enter a username and password. Then, you’ll be able to edit more user"
-" options."
+"First, enter a username and password. Then, you’ll be able to edit more user "
+"options."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/auth/user/add_form.html:9
@@ -1768,8 +1765,8 @@ msgstr ""
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/delete_confirmation.html:53
 #, python-format
 msgid ""
-"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the"
-" following protected related objects:"
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/delete_confirmation.html:69
@@ -1848,8 +1845,8 @@ msgstr "Bem-vindo(a) de volta ao"
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/login.html:40
 #, python-format
 msgid ""
-"You are authenticated as %(username)s, but are not authorized to access this"
-" page. Would you like to login to a different account?"
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/login.html:62
@@ -1876,8 +1873,8 @@ msgstr[1] ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/object_history.html:84
 msgid ""
-"This object doesn’t have a change history. It probably wasn’t added via this"
-" admin site."
+"This object doesn’t have a change history. It probably wasn’t added via this "
+"admin site."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/admin/pagination.html:28
@@ -1923,8 +1920,8 @@ msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/registration/password_change_form.html:35
 msgid ""
-"Please enter your old password, for security’s sake, and then enter your new"
-" password twice so we can verify you typed it in correctly."
+"Please enter your old password, for security’s sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
 msgstr ""
 
 #: venv/lib/python3.9/site-packages/unfold/templates/unfold/change_list_filter.html:9
