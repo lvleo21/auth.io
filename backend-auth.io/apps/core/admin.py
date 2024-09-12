@@ -67,6 +67,7 @@ class AccountAdmin(UserAdmin, BaseAdmin):
                 "fields": (
                     "is_staff",
                     "email_is_confirmed",
+                    "is_active",
                     "groups",
                     "user_permissions",
                 )
