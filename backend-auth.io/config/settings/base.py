@@ -1,6 +1,7 @@
 import os
 import environ
 from pathlib import Path
+from datetime import timedelta
 
 from django.templatetags.static import static
 from django.utils.translation import gettext_lazy as _
@@ -50,6 +51,7 @@ EXTERNAL_APPS = [
 
 PROJECT_APPS = [
     "apps.core",
+    "apps.api",
 ]
 
 INSTALLED_APPS = PROJECT_APPS + EXTERNAL_APPS + DJANGO_APPS
@@ -130,6 +132,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "core.Account"
 
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+]
+
 # Swagger
 
 SWAGGER_SETTINGS = {
@@ -188,3 +194,25 @@ UNFOLD = {
 
 # Debug Toolbar config
 DEBUG_TOOLBAR_CONFIG = {"SHOW_TOOLBAR_CALLBACK": lambda request: DEBUG}
+
+# Rest framework
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
+
+# Simple JWT
+
+ACCESS_TOKEN_LIFETIME = env("ACCESS_TOKEN_LIFETIME", cast=int)
+REFRESH_TOKEN_LIFETIME = env("REFRESH_TOKEN_LIFETIME", cast=int)
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(days=ACCESS_TOKEN_LIFETIME),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=REFRESH_TOKEN_LIFETIME),
+    "UPDATE_LAST_LOGIN": True,
+    "TOKEN_OBTAIN_SERIALIZER": "apps.api.serializers.CustomTokenObtainPairSerializer",
+}

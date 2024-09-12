@@ -28,6 +28,9 @@ urlpatterns = [
         name="schema-redoc"
     ),
 
+    # API
+    path("api/", include("apps.api.urls")),
+
     # Media
     re_path(
         r'^media/(?P<path>.*)$',
@@ -41,4 +44,5 @@ urlpatterns = [
         serve,
         {'document_root': settings.STATIC_ROOT}
     ),
+
 ]
